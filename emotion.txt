@@ -802,6 +802,7 @@ hyster	fear
 hysteria	fear
 hysterical	fear
 hysterically	fear
+i	joy
 identif	joy
 identifi	joy
 identification	joy
@@ -1024,6 +1025,12 @@ nauseate	disgust
 nauseated	disgust
 nauseating	disgust
 nauseous	disgust
+no	sadness
+not	fear
+never	anger
+nothing	anger
+few	sadness
+little	sadness
 near	joy
 nettl	anger
 nettle	anger
@@ -1274,6 +1281,8 @@ self-satisfact	joy
 self-satisfaction	joy
 self-satisfi	joy
 self-satisfied	joy
+sexy	joy
+sex	joy
 shadow	fear
 shame	sadness
 shamed	sadness
@@ -1298,6 +1307,7 @@ sickeningly	disgust
 sickish	disgust
 smug	joy
 smugness	joy
+so	surprise
 soft_spot	joy
 soft-boil	joy
 soft-boiled	joy
@@ -1471,6 +1481,7 @@ veng	anger
 vengefully	anger
 vengefulness	anger
 venom	anger
+very	surprise
 vex	anger
 vexat	anger
 vexati	anger
@@ -1538,6 +1549,7 @@ wretch	sadness
 wretched	sadness
 wroth	anger
 wrothful	anger
+you	surprise
 yucki	disgust
 yucky	disgust
 zeal	joy
