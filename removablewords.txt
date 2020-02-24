@@ -1,11 +1,13 @@
 a
 an
 the
+for
 of	
 with	
 at	
 from	
-into	
+into
+for	
 during	
 including
 until	
@@ -16,7 +18,7 @@ despite
 towards	
 upon	
 concerning
-to	
+for	
 in
 for	
 on
