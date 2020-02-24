@@ -17,18 +17,12 @@ public class SPL1 {
         operations.splitInput(inputString);
         operations.removeWord();
         operations.search();
-        
-      /* do
-        {
 
-             System.out.print(operations.outList.get(k)+ " ");
-            k++;
-        } while(!operations.outList.isEmpty());
-*/
 
-   //  EmotionCalculation emCal=new EmotionCalculation();
-   //  emCal.emotionCalc();
-   //  emCal.searchEmotion();
+     EmotionCalculation emCal=new EmotionCalculation();
+
+     emCal.searchEmotion();
+     emCal.emotionCalc();
 
         System.out.println("");
         
