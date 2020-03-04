@@ -11,16 +11,21 @@ public class EmotionCalculation {
     int Frequency[] = new int[8];
     public ArrayList<String> emotionList= new ArrayList<String>();      // Emotion Word List
     public ArrayList<String> wordList= new ArrayList<String>();         //Finding emotion from word
-
+    int exClaimCount=0;
     int intensity;
 
 
     public  void searchEmotion() throws IOException {
 
+
         //get the file
         System.out.print("After Lemmatization : ");
         for (i = 0; i < Operations.outList.size(); i++) {
             System.out.print(Operations.outList.get(i) + " ");
+            if(Operations.outList.get(i).contains("!"))
+            {
+                exClaimCount++;
+            }
         }
         System.out.println("");
 
@@ -254,7 +259,7 @@ public class EmotionCalculation {
 
         }
 
-        totalEmotionCount=4*Frequency[0]+3*Frequency[1]+(-1)*Frequency[2]+(-2)*Frequency[3]+(+4)*Frequency[4]+(-4)*Frequency[5]+(+2)*Frequency[6]+(-3)*Frequency[7];
+        totalEmotionCount=4*Frequency[0]+3*(Frequency[1]+exClaimCount)+(-1)*Frequency[2]+(-2)*Frequency[3]+(+4)*Frequency[4]+(-4)*Frequency[5]+(+2)*Frequency[6]+(-3)*Frequency[7];
 
         totalEmotionCount+=intensity;
         System.out.println("");
